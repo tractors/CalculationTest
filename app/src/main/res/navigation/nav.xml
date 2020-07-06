@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.will.calculationtest.TitleFragment"
-        android:label="fragment_title"
+        android:label="@string/title_nav_message"
         tools:layout="@layout/fragment_title" >
         <action
             android:id="@+id/action_titleFragment_to_questionFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/questionFragment"
         android:name="com.will.calculationtest.QuestionFragment"
-        android:label="fragment_question"
+        android:label="@string/question_nav_message"
         tools:layout="@layout/fragment_question" >
         <action
             android:id="@+id/action_questionFragment_to_winFragment"
@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/winFragment"
         android:name="com.will.calculationtest.WinFragment"
-        android:label="fragment_win"
+        android:label="@string/win_nav_message"
         tools:layout="@layout/fragment_win" >
         <action
             android:id="@+id/action_winFragment_to_titleFragment"
@@ -38,7 +38,7 @@
     <fragment
         android:id="@+id/loseFragment"
         android:name="com.will.calculationtest.LoseFragment"
-        android:label="fragment_lose"
+        android:label="@string/lose_nav_message"
         tools:layout="@layout/fragment_lose" >
         <action
             android:id="@+id/action_loseFragment_to_titleFragment"
